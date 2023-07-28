@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page for EdTech</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <!-- Navbar-brand -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+
+  <section id="first">
+    <!-- <div class="container-fluid"> -->
+        <nav class="navbar navbar-dark navbar-expand-md">
+            <a  href="#" id="classes" class="navbar-brand" style="color: aliceblue;">Tutort</a>
+            <button id="nav-toggle-button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <button class="btn btn-warning my-2 my-sm-0 nav-link" type="submit" style="font-weight: bold; color: black;">Sign up</button>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" style="color: aliceblue;">Centre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" style="color: aliceblue;">Courses</a>
+                        <!-- <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button> -->
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" style="color: aliceblue;">Blog</a>
+                        <!-- <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button> -->
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    <!-- </div> -->
+</section>
+
+<section id="fifth">
+
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="active" aria-current="true"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/1.png" class="d-block w-100" alt="image1">
+        </div>
+        <div class="carousel-item active">
+          <img src="image/2.png" class="d-block w-100" alt="image2">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<hr class="line1">
+
+<section id="second">
+  <div class="container">
+  <h1>Popular Courses</h1>
+  <div class="container cards d-flex mt-4 p-4">
+    <div class="row w-100 p-0 w-0">
+
+      <div class="col-lg-4 mb-2">
+        <div class="card text-black mb-3">
+          <div class="card-header" style="background-color: #39B5E0;">Engineering</div>
+          <div class="card-body">
+            <ul>
+              <li><span style="font-weight: bold;">One Year Power Step Classroom Course</span> for JEE (Main and Advanced)</li><br>
+              <li><span style="font-weight: bold;">Two Year First Step Integrated Classroom Course</span> for JEE (Main and Advanced)</li>
+            </ul>
+          </div>
+          <div class="card-footer text-center" style="background-color: #39B5E0;">
+            <button type="button" class="btn btn-secondary" id="onclick-btn">Check More</button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-4 mb-2">
+        <div class="card text-black mb-3">
+          <div class="card-header" style="background-color: #39B5E0;">Medical</div>
+          <div class="card-body">
+            <ul>
+              <li><span style="font-weight: bold;">One Year Regular Medical Classroom Course</span> for NEET</li><br>
+              <li><span style="font-weight: bold;">Two Year Integrated Classroom Course</span> for NEET After Board</li>
+            </ul>
+          </div>
+          <div class="card-footer text-center" style="background-color: #39B5E0;">
+            <button type="button" class="btn btn-secondary" id="onclick-btn">Check More</button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-4 mb-2">
+        <div class="card text-black mb-3">
+          <div class="card-header" style="background-color: #39B5E0;">Foundation</div>
+          <div class="card-body">
+            <ul>
+              <li><span style="font-weight: bold;">One Year Integrated Classroom Course</span> for Olympiads, NTSE & Class X</li><br>
+              <li><span style="font-weight: bold;">Two Year Integrated Classroom Course</span> for Olympiads, NTSE & Class IX to X</li>
+            </ul>
+          </div>
+          <div class="card-footer text-center" style="background-color: #39B5E0;">
+            <button type="button" class="btn btn-secondary" id="onclick-btn">Check More</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  
+</section>
+
+<hr class="line2">
+
+<section id="seventh">
+  <h1 class="course">Types of Courses</h1>
+
+  <div class="container cards d-flex mt-4 p-4">
+
+    <div class="card-deck row w-100 p-0 w-0" style="margin-left: 100px;">
+      <div class="col-xs-12 col-sm-6 col-md-4 show-modal">
+        <div class="card mb-4" style="width: 70%;">
+          <div class="view overlay">
+            <img class="card-img-top" src="image/3.jpg" alt="Card image cap">
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">JEE (Main+Advanced) IIT-JEE</h4>
+            <p class="card-text hide">We are equipped with the team of top most faculties for preparation of JEE (Main+Advanced)...</p>
+          </div>
+        </div>
+        <div class="overlay hidden"></div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 show-modal">
+        <div class="card mb-4" style="width: 70%;">
+          <div class="view overlay">
+            <img class="card-img-top" src="image/4.jpg" alt="Card image cap">
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">Pre-Medical NEET UG</h4>
+            <p class="card-text hide">We have long been distinguished for the best preparatory courses and results for medical entrance examinations...</p>
+          </div>
+        </div>
+        <div class="overlay hidden"></div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 show-modal">
+        <div class="card mb-4 card-wrapper" style="width: 70%; height: 93%; ">
+          <div class="view overlay">
+            <img class="card-img-top" src="image/7.jpg" alt="Card image cap">
+          </div>
+          <div class="card-body card-text-wrapper">
+            <h4 class="card-title">JEE Main</h4>
+            <p class="card-text hide">JEE (Main) courses designed by ALLEN are unique and are as per the latest examination pattern...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 show-modal">
+        <div class="card mb-4" style="width: 70%; ">
+          <div class="view overlay">
+            <img class="card-img-top" src="image/6.jpg" alt="Card image cap">
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">Pre-Nurture Career Foundation (6th to 10th)</h4>
+            <p class="card-text hide">Offers courses for various Competitive Exams and Olympiads for the students.</p>
+          </div>
+        </div>
+        <div class="overlay hidden"></div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 show-modal">
+        <div class="card mb-4" style="width: 70%; ">
+          <div class="view overlay">
+            <img class="card-img-top" src="image/5.jpg" alt="Card image cap">
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">Medical PG</h4>
+            <p class="card-text hide">Tutort Next: Crisp, Concise & Complete courses for NEET PG, INI-CET, FMGE & upcoming NexT exam preparation.</p>
+          </div>
+        </div>
+        <div class="overlay hidden"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<hr class="line3">
+
+<section id="third">
+  <h1>Advantages</h1>
+
+  <div class="container cards d-flex mt-4 p-4">
+
+    <div class="row w-100 p-0 w-0">
+      <div class="col-lg-4 mb-2">
+
+        <div class="card">
+          <div class="card-body" style="background-color: #A1CCD1;">
+            <h5 class="card-title"><i class="fa-solid fa-chalkboard"></i> Teaching Methodology</h5><br>
+            <ul class="card-text">
+              <li>Concept & application based learning</li>
+              <li>Interactive & engaging lectures</li>
+              <li>Integrated approach focusing on competitive & school exams</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-2">
+        <div class="card">
+          <div class="card-body" style="background-color: #B5C99A">
+            <h5 class="card-title"><i class="fa-solid fa-book"></i> Study Material</h5><br>
+            <ul class="card-text">
+              <li>Well-researched & analysed</li>
+              <li>Comprehensive & meticulously designed</li>
+              <li>Based on latest syllabus & exam pattern</li><br>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-2">
+        <div class="card">
+          <div class="card-body" style="background-color: #C1D0B5;">
+            <h5 class="card-title"><i class="fa-regular fa-newspaper"></i> Regular Tests & Assessments</h5><br>
+            <ul class="card-text">
+              <li>Detailed test analysis with error analysis report</li>
+              <li>Simulated tests based on latest exam pattern</li>
+              <li>Compete at national level with All India Aakash Test Series</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-2">
+        <div class="card">
+            <div class="card-body" style="background-color: #7C96AB;">
+            <h5 class="card-title"><i class="fa-regular fa-sun"></i> Omni-channel Learning</h5><br>
+            <ul class="card-text">
+              <li>100% digitised classrooms across all branches or centres</li>
+              <li>Hybrid classrooms offering the best of classroom & online learning</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-2">
+        <div class="card">
+          <div class="card-body" style="background-color: #E9A178;">
+            <h5 class="card-title"><i class="fa-solid fa-chalkboard-user"></i> Doubt Clearing System</h5><br>
+            <ul class="card-text">
+              <li>One-to-one interactive session with subject experts</li>
+              <li>Detailed & simplified solutions</li>
+              <li>Video solutions for instant doubt resolution</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-2">
+        <div class="card">
+          <div class="card-body" style="background-color: #A7D2CB;">
+            <h5 class="card-title"><i class="fa-regular fa-comment"></i> Feedback System</h5><br>
+            <ul class="card-text">
+              <li>Timely updates on performance & attendance</li>
+              <li>Query/grievance redressal</li><br><br>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<hr class="line4">
+
+<section id="fourth">
+
+  <div class="container cards d-flex mt-4 p-4">
+    <div class="row w-100 p-0 w-0">
+
+      <div class="col-lg-4 mb-2">
+        <div class="card text-black mb-3">
+          <div class="card-header">Announcements</div>
+          <div class="card-body" style="background-color: #B7C4CF;">
+            <ul class="bold">
+              <li>MCC Schedule (All India Medical UG Counselling)-2023</li><br>
+              <li>Get up to 90% Scholarship for iACST</li><br>
+              <li>Joint Package for NEET 2024 Has Launched</li><br><br><br>
+            </ul>
+          </div>
+          <div class="card-footer text-center">
+            <button type="button" class="btn btn-outline-dark" id="onclick-btn">Check More</button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-4 mb-2">
+        <div class="card text-black mb-3">
+          <div class="card-header">News & Events</div>
+          <div class="card-body" style="background-color: #B7C4CF;">
+            <ul class="bold">
+              <li>Indian Olympiad Qualifier (IOQM) 2023-24: Registration Open</li><br>
+              <li>Odisha State Medical Counselling Registration Starts for 2023</li><br>
+              <li>Online Registration for Karnataka State Medical Counselling Started</li><br>
+            </ul>
+          </div>
+          <div class="card-footer text-center">
+            <button type="button" class="btn btn-outline-dark" id="onclick-btn">Check More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<hr class="line5">
+
+<section id="sixth">
+
+  <h1 style="padding-bottom: 40px;">For Expert Consultation</h1>
+
+  <div class="container">
+    <form class="info-form" method="post">
+      <!-- 2 column grid layout with text inputs for the first and last names -->
+      <div class="row mb-4">
+        <div class="col col-md-3">
+          <div class="form-outline">
+            <input type="text" id="form3Example1" class="form-control" placeholder="First Name" required>
+          </div>
+        </div>
+        <div class="col col-md-3">
+          <div class="form-outline">
+            <input type="text" id="form3Example2" class="form-control" placeholder="Last Name" required>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Email input -->
+      <div class="row mb-4">
+        <div class="col col-md-3">
+          <div class="form-outline">
+            <input type="email" id="form3Example3" class="form-control" placeholder="Email" required>
+          </div>
+        </div>
+
+        <div class="col col-md-3">
+          <div class="form-outline">
+            <input type="tel" id="form3Example4" class="form-control" placeholder="Mobile Number" class="footer_link" required>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-4">
+        <div class="col col-md-3">
+            <select class="form-select" aria-label="Default select example" required>
+              <option value="">Stream</option>
+              <option value="1">Medical</option>
+              <option value="2">Engineering</option>
+              <option value="3">Foundation</option>
+            </select>
+        </div>
+
+        <div class="col col-md-3">
+          <select class="form-select" aria-label="Default select example" required >
+            <option value="">Class</option>
+            <option value="1">11</option>
+            <option value="2">12</option>
+            <option value="3">12 Passed</option>
+          </select>
+      </div>
+      </div>
+    
+      <!-- Checkbox -->
+      <div class="form-check d-flex justify-content-center mb-4">
+        <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" required/>
+        <label class="form-check-label" for="form2Example33">
+          Check the checkbox
+        </label>
+      </div>  
+
+      <div class="info-btn">
+        <button type="submit" class="btn btn-warning">Go Ahead</button>
+      </div>
+    
+      <!-- Submit button -->
+      <!-- <button type="submit" class="btn btn-primary btn-block mb-4">Go Ahead</button> -->
+    
+      <!-- Register buttons -->
+      <!-- <div class="text-center">
+        <p>or sign up with:</p>
+        <button type="button" class="btn btn-secondary btn-floating mx-1">
+          <i class="fab fa-facebook-f"></i>
+        </button>
+    
+        <button type="button" class="btn btn-secondary btn-floating mx-1">
+          <i class="fab fa-google"></i>
+        </button>
+    
+        <button type="button" class="btn btn-secondary btn-floating mx-1">
+          <i class="fab fa-twitter"></i>
+        </button>
+    
+        <button type="button" class="btn btn-secondary btn-floating mx-1">
+          <i class="fab fa-github"></i>
+        </button>
+      </div> -->
+    </form> 
+  </div>
+
+</section>
+
+<section id="footer">
+
+  <div class="container">
+
+    <div class="row" style="margin-right: 0;">
+        <div class="col-lg-5 col-md-5">
+            <div class="d-flex align-items-center flex-wrap mb-3" style="padding-left: 30px;">
+                <div>
+                    <h4 class="footer-title">Follow Us</h4>
+                </div>
+                <div class="font mx-4 mmx-4-1">
+                    <a href="" style="color: azure;"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="font mx-4 mmx-4-1">
+                    <a href="" style="color: azure;"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="font mx-4 mmx-4-1">
+                    <a href="" style="color: azure;"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+
+            <div class="d-flex">
+                <div>
+                    <ul class="footer_link">
+                        <li>
+                            <a href="#" class="links">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="#" class="links">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="links">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="links">Terms & Condition</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mx-5">
+                    <ul class="footer_link">
+                        <li>
+                            <a href="#" class="links">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="links">Disclaimer</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-2 col-md-12"></div>
+
+        <div class="col-lg-4 col-md-12">
+            <div class="d-flex align-items-center flex-wrap mb-3" style="padding-left: 30px;">
+                <div class="contact_head">
+                    <h4 class="footer-title">Contact Us</h4>
+                </div>
+            </div>
+            <div class="contact_detail">
+                <p><span>Telephone No. </span>080 778 9853</p>
+            </div>
+        </div>
+
+        <div class="col-lg-5 col-md-12">
+            <div class="copywrite" style="padding-left: 30px;"x>
+                <p>© 2023 tutort.com</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+#nav-toggle-button{
+	color:aliceblue;
+}
+.nav-item{
+	padding-right: 30px;
+	font-size: 1.1em;
+}
+.navbar-brand{
+	padding: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+.navbar{
+	background-color: black;
+}
+#classes{
+	font-size: 2em;	
+}
+#first{
+	padding-bottom: 10px;
+}
+#second{
+	padding-bottom: 20px;
+}
+h1{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	padding: 30px 45px 0px 45px;
+}
+.row{
+	justify-content: center;
+}
+.card-header{
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.card-title{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+/* #fourth{
+	background-color: rgb(170, 170, 170	);
+} */
+.info-btn{
+	text-align: center;
+}
+.line1{
+	margin: 50px 90px 0px 90px;
+}
+.line2{
+	margin: 0px 90px 0px 90px;
+}
+.line3{
+	margin: 20px 90px 0px 90px;
+}
+.line4{
+	margin: 20px 90px 0px 90px;
+}
+.line5{
+	margin: 20px 90px 0px 90px;
+}
+.info-form{
+	padding-bottom: 30px;
+}
+#footer{
+	background-color: black;
+	color: azure;
+	/* padding-bottom: 100px; */
+	padding-top: 25px;
+}
+.footer-title{
+	color: orange;
+	font-size: 30px;
+	font-weight: bolder;
+	font-family: 'Times New Roman', Times, serif;
+}
+.copywrite{
+	/* position: relative;
+	top: 80px; */
+	text-align: center;
+}
+.links{
+	color: azure;
+	text-decoration: none;
+	font-size: 1.2em; 
+}
+.contact_detail{
+	padding-left: 34px;
+	font-size: 1.1em; 
+}
+.footer_link{
+	list-style-type: none;
+}
+.bold{
+	font-weight: bold;
+}
+
+.hide{
+	display: none;
+}
+.show{
+	display:block;
+}
+.card-wrapper {
+	width: 45%;
+	display:inline-block;
+	height: 150px;
+	/* background: url('https://www.ukvetsonline.co.uk/sites/default/files/230/kitten_on_fence_0.jpg'); */
+	background-size:cover;
+	position: relative;
+}
+.card-text-wrapper{ 
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(225,225,225,.7);
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
